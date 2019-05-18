@@ -25,8 +25,8 @@ public class Reception {
                 cwl.addPatient(patient);
                 System.out.println("All doctors are occupied. Adding " + patient.name + " to common waiting list");
             } else {
-                System.out.println(patient.name+" arrived, assigned to "+docWithLeastPatient.name +" - "+System.currentTimeMillis());
-//                System.out.println(patient.name+" arrived, assigned to "+docWithLeastPatient.name);
+                // System.out.println(patient.name+" arrived, assigned to "+docWithLeastPatient.name +" - "+System.currentTimeMillis());
+               System.out.println(patient.name+" arrived, assigned to "+docWithLeastPatient.name);
                 docWithLeastPatient.addPatient(patient);
                 ListNotEmptySignall();
             }
@@ -62,11 +62,11 @@ public class Reception {
                 ListNotEmptyAwait();
             }
             Patient patient = d.selectPatient();
-            System.out.println(d.name + " meeting " + patient.name +" - "+System.currentTimeMillis());
-//                System.out.println(d.name + " meeting " + patient.name);
+            // System.out.println(d.name + " meeting " + patient.name +" - "+System.currentTimeMillis());
+               System.out.println(d.name + " meeting " + patient.name);
             waittt(patient.consultationTime);
-            System.out.println(d.name+" and "+patient.name+" session has ended - "+System.currentTimeMillis());
-            //                System.out.println(d.name+" and "+patient.name+" session has ended");
+            // System.out.println(d.name+" and "+patient.name+" session has ended - "+System.currentTimeMillis());
+                           System.out.println(d.name+" and "+patient.name+" session has ended");
             d.waitingList.removePatient(patient);
         }
     }
