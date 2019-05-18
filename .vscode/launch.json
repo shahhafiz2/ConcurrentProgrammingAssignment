@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConcurrentProgrammingAssignment",
+            "request": "launch",
+            "mainClass": "concurrentprogrammingassignment.ConcurrentProgrammingAssignment",
+            "projectName": "ConcurrentProgrammingAssignment_312ea60b"
+        }
+    ]
+}
