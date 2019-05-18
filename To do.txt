@@ -1,0 +1,3 @@
+1. If common waiting list is not empty, insert patient into common waiting list instead into doctor's waiting list
+2. Assigning from common waiting list to doctor's waiting list
+3. Doctor take 15 minutes break after meeting 8 patient
