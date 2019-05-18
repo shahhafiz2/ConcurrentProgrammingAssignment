@@ -1,0 +1,37 @@
+1 2 4 5 6 7 8 9 10
+
+patient1 0 10
+patient2 0 20
+patient3 0 15 
+patient4 2 25
+patient5 2 10 
+patient6 3 15
+patient7 3 25 
+patient8 5 25
+patient9 5 10 
+patient10 7 20 
+patient11 10 10 
+patient12 10 15 
+patient13 13 10
+patient14 13 20 
+patient15 15 12
+patient16 15 22
+patient17 15 17 
+patient18 15 10
+patient19 15 15 
+patient20 19 10
+patient21 20 17 
+patient22 25 15
+patient23 25 16
+patient24 25 14 
+patient25 30 10
+patient26 30 12
+patient27 30 23 
+patient28 30 15
+patient29 30 25 
+patient30 33 12
+patient31 35 11
+patient32 35 20
+patient33 40 13
+patient34 40 10
+patient35 45 16
